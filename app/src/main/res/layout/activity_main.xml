@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:gravity="center_horizontal"
+     android:background="?android:attr/colorBackground"
+     android:padding="8dp"
+     android:orientation="vertical">
+
+    <com.google.android.material.textview.MaterialTextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:textSize="16sp"
+         android:layout_marginTop="20dp"
+         android:text="@string/app_label_main"
+         android:textStyle="bold" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+         android:layout_height="60dp"
+         android:layout_width="60dp"
+         android:src="@drawable/ic_launcher"
+         app:cornerRadius="20dp"
+         android:layout_marginTop="15dp"
+         android:id="@+id/logo" />
+
+    <com.google.android.material.textfield.TextInputLayout
+         android:layout_height="40dp"
+         android:layout_width="match_parent"
+         app:hintTextAppearance="@style/HintTextSize"
+         android:hint="@string/project_name"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         style="@style/InputStyle"
+         android:layout_marginTop="15dp"
+         android:id="@+id/loginactivityTextInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:hint="Project name"
+             android:padding="6dp"
+             android:textSize="12sp"
+             android:id="@+id/projectname"
+             android:text="My Game" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+         android:layout_height="40dp"
+         android:layout_width="match_parent"
+         android:layout_below="@id/loginactivityTextInputLayout"
+         app:hintTextAppearance="@style/HintTextSize"
+         android:hint="@string/package_name"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+         android:layout_marginTop="15dp"
+         android:id="@+id/loginactivityTextInputLayout2">
+
+        <com.google.android.material.textfield.TextInputEditText
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:padding="6dp"
+             android:textSize="12sp"
+             android:inputType="textNoSuggestions"
+             android:id="@+id/packagename"
+             android:text="com.game.mygame" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+         android:layout_height="40dp"
+         android:layout_width="match_parent"
+         app:hintTextAppearance="@style/HintTextSize"
+         app:hintEnabled="true"
+         android:hint="@string/min_sdk"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+         android:layout_marginTop="10dp"
+         android:id="@+id/minSdkLayout">
+
+        <AutoCompleteTextView
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical"
+             android:minHeight="0dp"
+             android:paddingBottom="0dp"
+             android:textSize="12sp"
+             android:paddingStart="8dp"
+             android:inputType="none"
+             android:id="@+id/auto_complete"
+             android:paddingTop="0dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:background="@drawable/title_background"
+         android:padding="5dp"
+         android:layout_margin="10dp"
+         android:textSize="12sp"
+         android:textColor="?attr/colorOnSurfaceVariant"
+         android:text="@string/screen_orientation" />
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:orientation="horizontal">
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:gravity="center"
+             android:orientation="vertical"
+             android:layout_weight="1">
+
+            <ImageView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:src="@drawable/ic_portrait" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:minHeight="0dp"
+                 android:button="@drawable/ic_radiobutton"
+                 android:paddingVertical="4dp"
+                 android:textSize="10sp"
+                 android:checked="true"
+                 android:minWidth="0dp"
+                 android:id="@+id/portrait"
+                 android:text="@string/portrait" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:minHeight="0dp"
+                 android:button="@drawable/ic_radiobutton"
+                 android:paddingVertical="4dp"
+                 android:textSize="10sp"
+                 android:minWidth="0dp"
+                 android:id="@+id/sensorPortrait"
+                 android:text="@string/sensor_portrait" />
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:gravity="center"
+             android:orientation="vertical"
+             android:layout_weight="1">
+
+            <ImageView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:src="@drawable/ic_landscape" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:minHeight="0dp"
+                 android:button="@drawable/ic_radiobutton"
+                 android:paddingVertical="4dp"
+                 android:textSize="10sp"
+                 android:minWidth="0dp"
+                 android:layout_gravity="center"
+                 android:id="@+id/landscape"
+                 android:text="@string/landscape" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:minHeight="0dp"
+                 android:button="@drawable/ic_radiobutton"
+                 android:paddingVertical="4dp"
+                 android:textSize="10sp"
+                 android:minWidth="0dp"
+                 android:layout_gravity="center"
+                 android:id="@+id/sensorLandscape"
+                 android:text="@string/sensor_landscape" />
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:gravity="center"
+             android:orientation="vertical"
+             android:layout_weight="1">
+
+            <ImageView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:src="@drawable/ic_sensor" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:minHeight="0dp"
+                 android:button="@drawable/ic_radiobutton"
+                 android:paddingVertical="4dp"
+                 android:textSize="10sp"
+                 android:minWidth="0dp"
+                 android:id="@+id/sensor"
+                 android:text="@string/sensor" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:background="@drawable/title_background"
+         android:layout_margin="10dp"
+         android:padding="5dp"
+         android:textSize="12sp"
+         android:text="@string/template_configure" />
+
+    <RadioGroup
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:layout_margin="10dp"
+         android:id="@+id/configsRadio">
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:minHeight="0dp"
+             android:button="@drawable/ic_radiobutton"
+             android:paddingVertical="4dp"
+             android:textSize="12sp"
+             android:checked="true"
+             android:minWidth="0dp"
+             android:id="@+id/applisten"
+             android:text="@string/applicationListener_desc" />
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:minHeight="0dp"
+             android:button="@drawable/ic_radiobutton"
+             android:paddingVertical="4dp"
+             android:textSize="12sp"
+             android:minWidth="0dp"
+             android:id="@+id/game"
+             android:text="@string/game_desc" />
+
+    </RadioGroup>
+
+    <com.google.android.material.button.MaterialButton
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:contentDescription="Criar Projecto"
+         android:paddingBottom="4dp"
+        android:textSize="12sp"
+        android:backgroundTint="?attr/colorPrimaryContainer"
+        android:textColor="?attr/colorOnPrimaryContainer"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginTop="15dp"
+         android:paddingTop="4dp"
+         android:text="@string/create_project"
+         android:id="@+id/copy" />
+
+    <com.google.android.material.textview.MaterialTextView
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:textSize="12sp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginTop="15dp"
+         android:id="@+id/logger"
+         android:layout_gravity="center"
+         android:text="" />
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:orientation="vertical"
+         android:layout_weight="1">
+
+    </LinearLayout>
+
+</LinearLayout>

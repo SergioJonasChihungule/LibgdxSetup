@@ -1,0 +1,125 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Libgdx Setup/settings.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 333,
+          "line": 19
+        },
+        "start": {
+          "column": 0,
+          "index": 333,
+          "line": 19
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Libgdx Setup/gradlew.bat",
+      "selection": {
+        "end": {
+          "column": 42,
+          "index": 916,
+          "line": 23
+        },
+        "start": {
+          "column": 42,
+          "index": 916,
+          "line": 23
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Libgdx Setup/gradlew",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 8705,
+          "line": 251
+        },
+        "start": {
+          "column": 0,
+          "index": 8705,
+          "line": 251
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Libgdx Setup/gradle.properties",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 341,
+          "line": 10
+        },
+        "start": {
+          "column": 0,
+          "index": 341,
+          "line": 10
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Libgdx Setup/build.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 305,
+          "line": 9
+        },
+        "start": {
+          "column": 0,
+          "index": 305,
+          "line": 9
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Libgdx Setup/gradle/libs.versions.toml",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 636,
+          "line": 15
+        },
+        "start": {
+          "column": 0,
+          "index": 636,
+          "line": 15
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Libgdx Setup/gradle/wrapper/gradle-wrapper.properties",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 252,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "index": 252,
+          "line": 7
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Libgdx Setup/app/build.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 630,
+          "line": 28
+        },
+        "start": {
+          "column": 1,
+          "index": 630,
+          "line": 28
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Libgdx Setup/app/build.gradle.kts"
+}

@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <!-- Base application theme. -->
+  <style name="Base.AppTheme" parent="Theme.Material3.DynamicColors.DayNight">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimaryDark">?android:attr/colorBackground</item>
+    <item name="elevationOverlayEnabled">false</item>
+    <item name="android:windowBackground">?android:attr/colorBackground</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:colorControlActivated">?attr/colorSecondary</item>
+  </style>
+
+  <style name="AppTheme" parent="Base.AppTheme" />
+    <style name="ButtonStyle" parent="Widget.Material3.Button.OutlinedButton">
+    </style>
+    <style name="HintTextSize" parent="TextAppearance.Design.Hint">
+    <item name="android:textSize">12sp</item>
+</style>
+</resources>

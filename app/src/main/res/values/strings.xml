@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Libgdx Setup</string>
+    <string name="app_label_main">Create Libgdx project</string>
+    <string name="project_name">Project name</string>
+    <string name="package_name">Package name</string>
+    <string name="min_sdk">Min SDK</string>
+    <string name="screen_orientation">Screen orientation</string>
+    <string name="portrait">Portrait</string>
+    <string name="sensor_portrait">Sensor portrait</string>
+    <string name="landscape">Landscape</string>
+    <string name="sensor_landscape">Sensor landscape</string>
+    <string name="sensor">Sensor</string>
+    <string name="template_configure">Template configure</string>
+    <string name="applicationListener_desc">ApplicationListener(extends ApplicationListener)</string>
+    <string name="game_desc">Game(extends Game)</string>
+    <string name="create_project">Create project</string>
+</resources>
