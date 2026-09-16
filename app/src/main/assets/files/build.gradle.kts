@@ -3,7 +3,6 @@ import java.io.InputStream
 
 plugins {
     id("com.android.application")
-    id("org.jetbrains.kotlin.android")
 }
 
 // Recuperando variáveis do projeto raiz
@@ -12,8 +11,8 @@ val appName: String by project.extra
 
 android {
     namespace = "$packagename$"
-    compileSdk = 36
-    buildToolsVersion = "35.0.0"
+    compileSdk = 37
+    
 
     sourceSets {
         getByName("main") {
@@ -65,7 +64,7 @@ android {
     buildTypes {
         getByName("release") {
             isMinifyEnabled = true
-            proguardFiles(getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro")
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
 
